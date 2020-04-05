@@ -1,0 +1,81 @@
+Starting FaceApplication on DESKTOP-72UH89M with PID 3060 (F:\face\target\classes started by Evan in F:\face)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@8dbdac1: startup date [Sat Jun 02 23:06:54 CST 2018]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.6.Final
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.31
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2799 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@8dbdac1: startup date [Sat Jun 02 23:06:54 CST 2018]; root of context hierarchy
+Mapped "{[/facemerge/uploadFM],methods=[POST]}" onto public void com.evan.face.controller.FaceMergeController.UploadBDANIMAL() throws java.lang.Exception
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Registering beans for JMX exposure on startup
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http)
+Started FaceApplication in 4.881 seconds (JVM running for 6.678)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 16 ms
+Request method 'GET' not supported
+model的值是====null
+model的值是====4
+model的值是====6
+model的值是====7
+model的值是====5
+model的值是====17
+model的值是====4
+model的值是====5
+model的值是====5
+model的值是====6
+model的值是====7
+model的值是====18
+model的值是====19
+model的值是====5
+model的值是====5
+model的值是====6
+Starting FaceApplication on DESKTOP-72UH89M with PID 9996 (F:\face\target\classes started by Evan in F:\face)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@8dbdac1: startup date [Sat Jun 02 23:38:34 CST 2018]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.6.Final
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.31
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2030 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@8dbdac1: startup date [Sat Jun 02 23:38:34 CST 2018]; root of context hierarchy
+Mapped "{[/facemerge/uploadFM],methods=[POST]}" onto public void com.evan.face.controller.FaceMergeController.UploadBDANIMAL() throws java.lang.Exception
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Registering beans for JMX exposure on startup
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http)
+Started FaceApplication in 4.1 seconds (JVM running for 5.406)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 16 ms
+model的值是====5
+{  "ret": 12289,  "msg": "appinfo not exist",  "data": {      "image": ""  }}
+model的值是====6
+{  "ret": 12289,  "msg": "appinfo not exist",  "data": {      "image": ""  }}
